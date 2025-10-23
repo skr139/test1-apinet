@@ -1,0 +1,21 @@
+{
+  "phases": {
+    "setup": {
+      "nixPkgs": [ "dotnet-sdk_8" ]
+    },
+    "build": {
+      "cmds": [
+        "dotnet restore",
+        "dotnet build -c Release --no-restore"
+      ]
+    },
+    "install": {
+      "cmds": [
+        "dotnet publish -c Release -o out --no-build"
+      ]
+    }
+  },
+  "start": {
+    "cmd": "cd out && dotnet test1.dll"
+  }
+}
