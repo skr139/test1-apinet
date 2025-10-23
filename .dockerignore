@@ -1,0 +1,10 @@
+bin/
+obj/
+out/
+.git/
+.vs/
+.idea/
+*.user
+*.suo
+.nixpacks/
+node_modules/
