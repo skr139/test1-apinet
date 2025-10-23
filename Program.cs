@@ -1,5 +1,9 @@
 var builder = WebApplication.CreateBuilder(args);
 
+//Para Railway deployment
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+
 // Add services to the container.
 
 builder.Services.AddControllers();
