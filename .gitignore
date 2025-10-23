@@ -173,12 +173,3 @@ UpgradeLog*.htm
 # Microsoft Fakes
 FakesAssemblies/
 
-# Custom
-.vs/
-.vs/CustomerMicroservice/DesignTimeBuild/.dtbcache.v2
-.vs/APIGateway/DesignTimeBuild/.dtbcache.v2
-.vs/APIGateway/v17/.futdcache.v2
-.vs/CustomerMicroservice/v17/.suo
-.vs/APIGateway/v17/.suo
-APIGateway.API/appsettings.json
-APIGateway.API/c:/GlobalErrorHandlingLogs/internal_logs/internallog.txt 
